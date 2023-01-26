@@ -33,7 +33,6 @@ async function generalQuestions() {
                 employees.push(Intern.createEmployee(internData));
                 break;
             case 'Finish':
-                console.log('Finished');
                 finished = true;
         }
         generalQuestions();
